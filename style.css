@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #B89FA4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+nav{
+    position: absolute;
+    width: 400px;
+    top: 5%;
+    left: 8%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    height: 60px;
+}
+nav h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.part1{
+    height: 100%;
+    width: 26%;
+}
+.part2{
+    height: 100%;
+    width: 67%;
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+} 
+.part2 .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #645a5a8d;
+}
+.part3{
+    height: 100%;
+    width: 7%;
+}
+.text-div{
+    width: 400px;
+    color: #fff;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text-div h1{
+    font-size: 110px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+   
+}
+.small-image{
+    height: 400px;
+    width: 300px;
+    background-image:url(https://images.unsplash.com/photo-1674553048338-03f6a90a68df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyNDYxMzk0fHxlbnwwfHx8fHw%3D);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.small-image .overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: #6c636576;
+}
+
+.vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -76%;
+    top: -7%;
+}
+.vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    letter-spacing: 15px;
+    
+}
